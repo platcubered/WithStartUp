@@ -1,0 +1,37 @@
+#navItems {
+  align-items: right;
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-align: center;
+  align-items: right;
+}
+
+#mainStart {
+}
+
+#mainStartButton {
+  background-color: #303133;
+  border: 0px;
+  align-self: center;
+}
+
+
+#section1 {
+  background-color: #F5F5F5;
+}
+
+@media screen and (max-width: 360px) {
+  #mainImg {
+    height: 0;
+    background:  url(../img/headerPage_sm.png) no-repeat center;
+
+  }
+  #mainImg img{
+    display: none;
+  }
+}
