@@ -25,13 +25,19 @@
   background-color: #F5F5F5;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 890px) {
   #mainImg {
-    height: 0;
-    background:  url("../img/FormImg3.png") no-repeat center;
-
+    display: none;
   }
-  #mainImg img{
+  #mainImg2 {
+    display: block;
+  }
+}
+@media screen and (min-width: 889px) {
+  #mainImg {
+    display: block;
+  }
+  #mainImg2 {
     display: none;
   }
 }
