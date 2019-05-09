@@ -28,7 +28,7 @@
 @media screen and (max-width: 360px) {
   #mainImg {
     height: 0;
-    background:  url(../img/headerPage_sm.png) no-repeat center;
+    background:  url("../img/FormImg3.png") no-repeat center;
 
   }
   #mainImg img{
